@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    margin: 15px 20px 0;
+    background: linear-gradient(90deg, #9DB1D2 0%, #8CB6FB 50%, #ADACAA 100%);
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 15px;
+    z-index: 100;
+    border-radius: 20px;
+    width: calc(100% - 40px);
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navBtn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 0;
+    position: relative;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.navBtn:hover {
+    opacity: 0.8;
+}
+
+.navBtnActive {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+/* Кнопка "Записаться" — справа, чуть жирнее */
+.bookBtn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 0;
+    border-bottom: 2px solid white;
+    font-family: inherit;
+    transition: opacity 0.3s;
+}
+
+.bookBtn:hover {
+    opacity: 0.8;
+}

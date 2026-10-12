@@ -1,0 +1,54 @@
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    max-width: 220px;
+    max-height: 90px;
+    object-fit: contain;
+}
+
+.arrowLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2c3e50;
+    transition: transform 0.3s, color 0.3s;
+    flex-shrink: 0;
+}
+
+.arrowLink:hover {
+    color: #3498db;
+    transform: translate(3px, -3px);
+}
+
+.arrowIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    text-align: justify;
+}

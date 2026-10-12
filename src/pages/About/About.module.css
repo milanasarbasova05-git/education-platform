@@ -1,0 +1,30 @@
+.aboutPage {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content {
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #34495e;
+}
+
+.content p {
+    margin-bottom: 25px;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}
