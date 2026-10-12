@@ -23,7 +23,7 @@ function TeacherCard({ teacher, onClick }) {
       {
         root: null,
         rootMargin: '50px',
-        threshold: 0.3,
+        threshold: 0.1,
       }
     );
 
